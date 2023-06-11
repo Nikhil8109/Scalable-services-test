@@ -1,0 +1,37 @@
+.foodPndImg{
+  height:350px;
+  width:90%;
+  margin-left:50px;
+}
+.menuTable{
+    margin-top:20px;
+    margin-bottom:30px;
+    font-family: Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+}
+.menuTable td, .menuTable th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.menuTable tr:nth-child(even){background-color: #f2f2f2;}
+.menuTable tr:hover {background-color: #ddd;}
+.codeDiv{
+    display: flex;
+  flex-wrap: nowrap;
+  align-items:center;
+}
+.menuTable .vegItem{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.menuTable .NonvegItem{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ac1d1c;
+  color: white;
+}
